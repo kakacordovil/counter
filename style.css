@@ -7,7 +7,7 @@ html {
 body {
     background: url("https://images.unsplash.com/photo-1611460678499-4626d407cd05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80");
     background-size:cover;
-    
+    background-attachment:fixed;
   }
   
   header {
@@ -51,13 +51,12 @@ body {
     text-align:center;
   }
 
-   #dataform{
+  #dataform{
     font-size:15px;
     font-weight: normal;
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    
   }
   input[type=number] {
     width: 100%;
@@ -76,6 +75,13 @@ body {
   #result {
     color: black;
   }
+  
+  footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+  }
+
 
   button {
     position: relative;
@@ -97,10 +103,5 @@ body {
   button:hover {
     background: #003539;
   }
-  
-  footer{
-    color: white;
-    text-align: center;
-    font-style: italic;
-  }
 
+ 
