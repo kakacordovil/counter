@@ -59,6 +59,27 @@ body {
   #result {
     color: black;
   }
+
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 60px;
+    vertical-align: middle;
+    text-decoration: none;
+    background: #005f63;
+    padding: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: normal;
+
+  }
+
+  button:hover {
+    background: #003539;
+  }
   
   footer{
     color: white;
