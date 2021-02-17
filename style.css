@@ -54,7 +54,9 @@ body {
    #dataform{
     font-size:15px;
     font-weight: normal;
-    width: 100%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
     
   }
   input[type=number] {
