@@ -45,7 +45,7 @@ function toCount() {
         window.alert('[ERROR] Data missing!');
     } else {
 
-        result.innerHTML =  `Contando:`;
+        result.innerHTML =  `Counting:`;
         
         let valueStart = Number(inputStart.value);
         let valueEnd = Number(inputEnd.value);
